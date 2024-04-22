@@ -16,7 +16,7 @@ import Video from "../../components/Dashboard/Video.vue"
             module</span> </button>
       </div>
                   <div class="resultats">
-                <p class="resultat"> 1-5 sur 59</p>
+                <p class="resultat inset-color"> 1-5 sur 59</p>
                 <div class="selecter">
                     <div class="dropdown">
                         <select>
@@ -25,9 +25,9 @@ import Video from "../../components/Dashboard/Video.vue"
                             <option>15</option>
                         </select>
                     </div>
-                    <p>Par page</p>
+                    <p class="inset-color">Par page</p>
                 </div>
-                <p class="refresh"> <font-awesome-icon :icon="['fas', 'rotate-right']" /> Rafraîchir</p>
+                <p class="refresh inset-color"> <font-awesome-icon :icon="['fas', 'rotate-right']" /> Rafraîchir</p>
             </div>
             <div class="filtre-categorie">
                 <input type="radio" name="categorie-filtre" id="recent" checked>

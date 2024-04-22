@@ -95,8 +95,9 @@ p{
         border-radius: 10px;
 }
 .arrow-open{
-    background-color: #1773eb4b ;
+    background-color: #2a66b6 ;
     padding: 7px 14px;
     border-radius: 360px;
+    color: white;
 }
 </style>

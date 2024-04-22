@@ -9,7 +9,7 @@
             <input type="text" name="" id="" placeholder="Rechercher un quiz">
 
             <div class="resultats">
-                <p class="resultat"> 0 résultats</p>
+                <p class="resultat inset-color"> 0 résultats</p>
                 <div class="selecter">
                     <div class="dropdown">
                         <select>
@@ -18,9 +18,9 @@
                             <option>15</option>
                         </select>
                     </div>
-                    <p>Par page</p>
+                    <p class="inset-color">Par page</p>
                 </div>
-                <p class="refresh"> <font-awesome-icon :icon="['fas', 'rotate-right']" /> Rafraîchir</p>
+                <p class="refresh inset-color"> <font-awesome-icon :icon="['fas', 'rotate-right']" /> Rafraîchir</p>
             </div>
             <h6>Vous n'avez pas de playlist</h6>
             <ul class="pagination">

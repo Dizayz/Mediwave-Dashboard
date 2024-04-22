@@ -17,13 +17,13 @@ const { Nav } = storeToRefs(store)
             </div>
             <div class="recherche">
                 <input type="text" name="" id="" placeholder="Rechercher un quiz">
-                <v-switch :model-value="true" color="primary" label="Cacher les quiz terminés" style="margin-left: 5px;"
+                <v-switch :model-value="true" color="primary" label="Cacher les quiz terminés" style="margin-left: 5px; color: black;"
                     hide-details></v-switch>
-                <v-switch :model-value="true" color="primary" label="Révision d'examens" style="margin-left: 5px;"
+                <v-switch :model-value="true" color="primary" label="Révision d'examens" style="margin-left: 5px; color:black;"
                     hide-details></v-switch>
             </div>
             <div class="resultats">
-                <p class="resultat"> 01 résultats</p>
+                <p class="resultat inset-color"> 01 résultats</p>
                 <div class="selecter">
                     <div class="dropdown">
                         <select>
@@ -32,9 +32,9 @@ const { Nav } = storeToRefs(store)
                             <option>15</option>
                         </select>
                     </div>
-                    <p>Par page</p>
+                    <p class="inset-color">Par page</p>
                 </div>
-                <p class="refresh"> <font-awesome-icon :icon="['fas', 'rotate-right']" /> Rafraîchir</p>
+                <p class="refresh inset-color"> <font-awesome-icon :icon="['fas', 'rotate-right']" /> Rafraîchir</p>
             </div>
             <div class="quiz-container">
                 <Quiz></Quiz>

@@ -67,11 +67,11 @@ onMounted(() => {
 
 
     <div class="chart-container">
-      <h4>Performance Par Jour</h4>
+      <h4 class="inset-color">Performance Par Jour</h4>
       <canvas ref="chartCanvas"></canvas>
     </div>
     <div class="quizlogs-container">
-      <h4>Vos derniers quiz</h4>
+      <h4 class="inset-color">Vos derniers quiz</h4>
       <div class="quizlog-content">
         <div class="rajel">
           <p>Vous n'avez pas de quiz en cours</p>

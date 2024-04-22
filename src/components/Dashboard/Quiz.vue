@@ -7,7 +7,7 @@
         </div>
         </div>
         <div class="title-progres-bar">
-            <h4 class="title">Bioch + Cardio + Introduction a l'anatomopathologique + 2 (16/03/2024 14:55)</h4>
+            <h4 class="title inset-color">Bioch + Cardio + Introduction a l'anatomopathologique + 2 (16/03/2024 14:55)</h4>
                     <div class="progres-bar-container">
             <div class="progres-bar"></div>
         </div>

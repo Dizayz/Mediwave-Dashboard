@@ -152,7 +152,7 @@ window.addEventListener('resize', updateAspectRatio);
         <button class="filter"><font-awesome-icon class="filter-icon" :icon="['fas', 'filter']" /> <span>Filter Par
             Source</span> </button>
       </div>
-      <v-switch :model-value="true" color="primary" label="Cacher les questions non répondues" style="margin-left: 5px;"
+      <v-switch :model-value="true" color="primary"  label="Cacher les questions non répondues" style="margin-left: 5px; color:black;"
         hide-details></v-switch>
       <div class="analyse-detail-module">
         <AnalyseModule></AnalyseModule>
