@@ -9,14 +9,15 @@ const { Nav ,TogleMobileNav} = storeToRefs(MyStore)
 const route = useRouter()
 const routeName = ref('');
 const ShowToolTip = ref(true)
-window.onclick = (event) => {
+
+onMounted(() => {
+    window.onclick = (event) => {
     if (
         !(event.target as HTMLElement)?.closest('.hamburger')
     ) {
         TogleMobileNav.value = false;
     }
 }
-onMounted(() => {
     const path = route.currentRoute.value.path;
     const parts = path.split('/');
     routeName.value = parts[parts.length - 1];
