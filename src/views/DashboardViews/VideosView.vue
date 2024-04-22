@@ -66,6 +66,7 @@ h4 {
   font-weight: 600;
   border-bottom: 3px solid #1852b8;
   padding-bottom: 1px;
+   color: black;
 
 }
 .module-container {
@@ -150,6 +151,7 @@ input:focus {
 
 .filter * {
   font-weight: 600;
+  
 }
 
 .filter-icon {
@@ -250,6 +252,7 @@ select:focus {
 
 .resultat {
     font-weight: 500;
+     color: black;
 }
 /* ///////////// */
 /* PAGINATION */
@@ -295,6 +298,7 @@ select:focus {
     transition: all 0.3s ease;
     cursor: pointer;
       white-space: nowrap;
+       color: black;
 }
 .filtre-categorie input[type=radio]{
 display: none;

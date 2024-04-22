@@ -9,15 +9,14 @@ const { Nav ,TogleMobileNav} = storeToRefs(MyStore)
 const route = useRouter()
 const routeName = ref('');
 const ShowToolTip = ref(true)
-
-onMounted(() => {
-    window.onclick = (event) => {
+window.onclick = (event) => {
     if (
         !(event.target as HTMLElement)?.closest('.hamburger')
     ) {
         TogleMobileNav.value = false;
     }
 }
+onMounted(() => {
     const path = route.currentRoute.value.path;
     const parts = path.split('/');
     routeName.value = parts[parts.length - 1];
@@ -484,6 +483,7 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1 1 0;
+        color: black;
 }
 
 button:hover {
@@ -508,6 +508,7 @@ h2 {
     font-weight: 700;
     padding: 0 10px;
     margin-top: 20px;
+        color: black;
 }
 
 label {
@@ -519,6 +520,7 @@ label {
     transition: 0.3s all ease-in-out;
     cursor: pointer;
     white-space: nowrap;
+        color: black;
 
 }
 
@@ -537,6 +539,7 @@ input[type=radio] {
 span {
     text-transform: capitalize;
     font-weight: 400;
+        color: black;
 }
 /* ////////////// */
 .slidenav-enter-active,

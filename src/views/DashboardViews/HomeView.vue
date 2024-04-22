@@ -108,6 +108,7 @@ onMounted(() => {
 h3 {
   font-weight: 700;
   text-transform: uppercase;
+  
 }
 
 .chart-container,

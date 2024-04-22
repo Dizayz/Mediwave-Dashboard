@@ -92,7 +92,7 @@ h4 {
     font-weight: 600;
     border-bottom: 3px solid #1852b8;
     padding-bottom: 1px;
-
+ color: black;
 }
 
 button {

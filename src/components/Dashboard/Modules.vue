@@ -80,6 +80,7 @@ const toggle = (index: number) => {
     display: block;
     flex: 1;
     padding: 10px 15px;
+        color: black;
 }
 
 .input-sous-module-container {
@@ -96,11 +97,13 @@ label {
     font-size: 1rem;
     font-weight: 500;
     padding-left: 10px;
+        color: black;
 }
 
 .icon {
     font-size: 1rem;
     transition: transform 0.3s ease;
+        color: black;
 }
 
 .icon-rotate {
@@ -149,6 +152,7 @@ label {
 .sous-module-conteneur .input-sous-module-container div label {
     display: block;
     width: 100%;
+        color: black;
 }
 
 .sous-module-conteneur .input-sous-module-container:hover {

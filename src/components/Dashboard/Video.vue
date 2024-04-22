@@ -49,29 +49,38 @@
 }
 .information-top h5{
     font-size: 0.9rem;
+        color: black;
 }
 .information-top h1{
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.2;
+        color: black;
 }
 .information-top h5 span{
     font-weight: 600;
+        color: black;
 }
 .detail{
     margin-top: 0.5rem;
     font-size: 0.8rem;
+        color: black;
+}
+
+h6{
+    font-size: 0.6rem;
+        color: black;
+}
+p{
+     font-size: 0.8rem;
+         color: black;
 }
 .hashtags{
     display: flex;
     gap: 5px;
-    color: #1852b8;
-}
-h6{
-    font-size: 0.6rem;
-}
-p{
-     font-size: 0.8rem;
+
+} .hashtags p {
+        color: #1852b8;
 }
 /* responsive */
 @media(max-width:900px){

@@ -71,10 +71,12 @@ flex-direction: column;
 
 
 }
+
 h3 {
     font-weight: 600;
     overflow-wrap: break-word;
      text-overflow: ellipsis; /* Display an ellipsis (...) to indicate text overflow */
+         color: black;
    }
 p{
     color: gray;

@@ -176,6 +176,7 @@ window.addEventListener('resize', updateAspectRatio);
 h3 {
   font-weight: 700;
   text-transform: uppercase;
+   color: black;
 }
 
 .chart-container,
@@ -200,7 +201,7 @@ h4 {
   font-weight: 600;
   border-bottom: 3px solid #1852b8;
   padding-bottom: 1px;
-
+ color: black;
 }
 
 h6 {
@@ -331,6 +332,7 @@ input {
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
   font-weight: 400;
+   color: black;
 }
 
 .usericon {

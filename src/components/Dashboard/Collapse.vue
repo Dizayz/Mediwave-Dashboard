@@ -31,7 +31,9 @@ const toggle = () => {
     flex-direction: column;
 }
 
-
+h1{
+        color: black;
+}
 .header {
     display: flex;
     align-items: center;

@@ -120,7 +120,8 @@
         cursor: not-allowed;
         font-weight: 600;
         opacity: 0.5;
-}
+         color: black;
+}   
 
 .plans {
     display: flex;
@@ -160,10 +161,12 @@ input[type=radio]:checked+label {
 
 .plans-item h3 {
     font-weight: 500;
+     color: black;
 }
 
 .plans-item h6 {
     font-size: 1rem;
+     color: black;
 }
 
 .plans-item h5 {
@@ -219,7 +222,7 @@ input[type=radio]:checked+label {
 .total h4 {
     font-weight: 600;
     font-size: 1rem;
-
+     color: black;
 }
 
 .total h4 span {
@@ -258,6 +261,7 @@ hr {
 h2{
     font-size: 1.2rem;
     font-weight: 600;
+     color: black;
 }
 
 .info-abonement hr{

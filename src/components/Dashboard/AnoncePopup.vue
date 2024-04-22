@@ -78,6 +78,7 @@ h1{
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
+        color: black;
 }
 .header-modal button{
         cursor: pointer;
@@ -96,6 +97,7 @@ h2{
 p{
     font-size: 1rem;
     font-weight: 400;
+        color: black;
 }
 ul{
     margin-left: 2rem;
@@ -112,6 +114,9 @@ ul{
     height: 5px;
     border: none;
    transform: skewX(300deg);
+}
+li{
+        color: black;
 }
 .slidein-enter-active,
 .slidein-leave-active {

@@ -247,6 +247,7 @@ h1 {
 h2 {
     font-size: 1.2rem;
     font-weight: 500;
+     color: black;
 }
 
 .question {
@@ -260,6 +261,7 @@ h3 {
     font-size: 0.9rem;
     line-height: 1.2;
     font-weight: 600;
+     color: black;
 }
 
 .number-qst {
@@ -410,6 +412,7 @@ label {
     cursor: pointer;
     font-size: 1.1rem;
      white-space: nowrap;
+      color: black;
 }
 
 hr {
@@ -422,6 +425,7 @@ hr {
 .a-partir-annee h3 {
     margin: 20px 0;
     font-size: 1.1rem;
+     color: black;
 }
 
 .v-select {
@@ -505,6 +509,7 @@ hr {
     margin:15px 0;
     font-size: 1rem;
     padding: 0 10px;
+     color: black;
 }
 }
 @media(max-width:450px){

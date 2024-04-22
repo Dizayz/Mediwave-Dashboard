@@ -114,6 +114,7 @@ a {
 
 .icon {
     font-size: 1.1rem;
+        color: black;
 }
 
 a:hover {
@@ -186,6 +187,7 @@ hr {
 }
 .hamburger{
     display: none;
+        color: black;
 }
 
 

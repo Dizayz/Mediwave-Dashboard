@@ -64,6 +64,7 @@ h4 {
     border-bottom: 3px solid #1852b8;
     padding-bottom: 1px;
     width: fit-content;
+     color: black;
 }
 
 input[type=text] {
@@ -171,5 +172,6 @@ flex-wrap: wrap;
 
 .resultat {
     font-weight: 500;
+     color: black;
 }
 </style>

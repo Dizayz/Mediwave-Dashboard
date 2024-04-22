@@ -85,4 +85,7 @@ const toggle = () => {
 .colapse-leave-active {
     transition: all 0.3s ease;
 }
+h1{
+        color: black;
+}
 </style>
