@@ -9,3 +9,8 @@
 * {
     font-family: "Nunito", sans-serif;
 }
+
+.inset-color {
+    color: black;
+    /* Set color to black */
+}
